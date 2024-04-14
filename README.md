@@ -18,7 +18,7 @@
 # 详细过程
 ## 任务一
 下载Shifu
-![1](步骤截图\1、下载Shifu.png)
+![](https://github.com/Mirrre/Shifu/blob/main/%E6%AD%A5%E9%AA%A4%E6%88%AA%E5%9B%BE/1%E3%80%81%E4%B8%8B%E8%BD%BDShifu.png)
 ## 任务二
 与酶标仪交互、创建数字孪生
 ![](步骤截图\2、与酶标仪交互、创建数字孪生.png)
