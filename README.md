@@ -21,9 +21,11 @@
 ![](https://github.com/Mirrre/Shifu/blob/main/%E6%AD%A5%E9%AA%A4%E6%88%AA%E5%9B%BE/1%E3%80%81%E4%B8%8B%E8%BD%BDShifu.png)
 ## 任务二
 与酶标仪交互、创建数字孪生
-![](步骤截图\2、与酶标仪交互、创建数字孪生.png)
+
+![](https://github.com/Mirrre/Shifu/blob/main/%E6%AD%A5%E9%AA%A4%E6%88%AA%E5%9B%BE/2%E3%80%81%E4%B8%8E%E9%85%B6%E6%A0%87%E4%BB%AA%E4%BA%A4%E4%BA%92%E3%80%81%E5%88%9B%E5%BB%BA%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F.png)
+
 与数字孪生交互
-![](步骤截图\3、与数字孪生交互.png)
+![](https://github.com/Mirrre/Shifu/blob/main/%E6%AD%A5%E9%AA%A4%E6%88%AA%E5%9B%BE/3%E3%80%81%E4%B8%8E%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F%E4%BA%A4%E4%BA%92.png)
 ## 任务三
 ### 定期轮询获取酶标仪的/get_measurement接口，并将返回值平均后打印出来，轮询时间可自定义
 
@@ -54,13 +56,13 @@ sudo kubectl create deployment my-deployment --image=lips0715/kube-go-app1
 ```shell
 sudo kubectl get pods -A
 ```
-![](步骤截图\4、获取所有命名空间下的Pods信息.png)
+![](https://github.com/Mirrre/Shifu/blob/main/%E6%AD%A5%E9%AA%A4%E6%88%AA%E5%9B%BE/4%E3%80%81%E8%8E%B7%E5%8F%96%E6%89%80%E6%9C%89%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E4%B8%8B%E7%9A%84Pods%E4%BF%A1%E6%81%AF.png)
 `my-deployment-8c6f6867c-x9zj7`就是我刚刚运行的`Pod`
 ### 最终通过kubectl logs命令可以查看打印的值
 ```shell
 sudo kubectl logs my-deployment-8c6f6867c-x9zj7
 ```
-![](步骤截图\5、最终完成效果.png)
+![](https://github.com/Mirrre/Shifu/blob/main/%E6%AD%A5%E9%AA%A4%E6%88%AA%E5%9B%BE/5%E3%80%81%E6%9C%80%E7%BB%88%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C.png)
 
 
 以上就是我本次笔试作业的所有内容，感谢您的阅读！
